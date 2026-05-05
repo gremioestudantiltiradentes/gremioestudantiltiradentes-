@@ -1,115 +1,153 @@
-<!DOCTYPE html><html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grêmio Estudantil Tiradentes</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#0b1d2c,#132f4c);color:white}
-header{text-align:center;padding:40px 20px}
-.logo{width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:10px}
-header h1{font-size:2rem}
-header p{opacity:.8}
-.container{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:25px}
-.card{background:#1e4d7a;padding:25px;border-radius:16px;box-shadow:0 4px 15px rgba(0,0,0,.3);transition:.3s}
-.card:hover{transform:translateY(-5px)}
-.center{grid-column:1/-1;text-align:center}
-.botao{display:inline-block;margin-top:15px;padding:10px 15px;background:white;color:#0b1d2c;border-radius:8px;text-decoration:none;font-weight:600}
-.page{display:none;padding:30px}
-.page:target{display:block}
-.back{margin-top:20px;display:inline-block;color:white;text-decoration:underline}
-footer{text-align:center;padding:20px;opacity:.6}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0b1d2c,#132f4c);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+
+header h1{
+    font-size:2rem;
+}
+
+header p{
+    opacity:.8;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:25px;
+}
+
+.card{
+    background:#1e4d7a;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.center{
+    grid-column:1/-1;
+    text-align:center;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 15px;
+    background:white;
+    color:#0b1d2c;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    opacity:.6;
+}
 </style>
+
 </head>
-<body><header>
-    <img 1000060198-removebg-preview.png" class="logo">
+<body>
+
+<header>
+    <!-- COLOQUE AQUI O NOME EXATO DO ARQUIVO DA SUA LOGO -->
+    <img src="1000060198-removebg-preview.png" class="logo">
+
     <h1>Grêmio Estudantil Tiradentes</h1>
     <p>Representando os estudantes do CPM Lobato</p>
-</header><div class="container"><div class="card center">
-    <h2>Sobre</h2>
-    <p>O Grêmio Estudantil Tiradentes atua na representação estudantil, promovendo projetos, defendendo direitos e fortalecendo a voz dos alunos dentro do CPM Lobato.</p>
+</header>
+
+<div class="container">
+
+    <div class="card center">
+        <h2>Sobre</h2>
+        <p>
+        O Grêmio Estudantil Tiradentes atua na representação dos estudantes,
+        promovendo projetos, defendendo direitos e fortalecendo a voz dos alunos
+        dentro do CPM Lobato.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Redes</h2>
+        <p>Visite nossas redes sociais.</p>
+        <a class="botao" href="redes.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Ouvidoria</h2>
+        <p>Canal direto com os estudantes.</p>
+        <a class="botao" href="ouvidoria.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Membros</h2>
+        <p>Lista oficial dos integrantes.</p>
+        <a class="botao" href="https://docs.google.com/document/d/1N1Y5_PuFeFL1K8gSQLLramDE2W_r-5L1m9NYqtmHHeM" target="_blank">Ver lista</a>
+    </div>
+
+    <div class="card">
+        <h2>Projetos</h2>
+        <a class="botao" href="projetos.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Notas Oficiais</h2>
+        <a class="botao" href="notas.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Ofícios</h2>
+        <a class="botao" href="oficios.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Colegiado Escolar</h2>
+        <a class="botao" href="colegiado.html">Acessar</a>
+    </div>
+
+    <div class="card">
+        <h2>Atas de Reuniões</h2>
+        <a class="botao" href="atas.html">Acessar</a>
+    </div>
+
 </div>
 
-<div class="card">
-    <h2>Redes</h2>
-    <p>Visite nossas redes sociais oficiais.</p>
-    <a class="botao" href="#redes">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Ouvidoria</h2>
-    <p>Canal direto para sugestões e apoio.</p>
-    <a class="botao" href="#ouvidoria">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Membros</h2>
-    <p>Lista oficial dos integrantes.</p>
-    <a class="botao" href="https://docs.google.com/document/d/1N1Y5_PuFeFL1K8gSQLLramDE2W_r-5L1m9NYqtmHHeM" target="_blank">Ver lista</a>
-</div>
-
-<div class="card">
-    <h2>Projetos</h2>
-    <a class="botao" href="#projetos">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Notas Oficiais</h2>
-    <a class="botao" href="#notas">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Ofícios</h2>
-    <a class="botao" href="#oficios">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Representante discente no colegiado</h2>
-    <a class="botao" href="#colegiado">Acessar</a>
-</div>
-
-<div class="card">
-    <h2>Atas</h2>
-    <a class="botao" href="#atas">Acessar</a>
-</div>
-
-</div><!-- REDES --><div id="redes" class="page">
-    <h2>Redes Sociais</h2>
-    <a class="botao" href="https://www.instagram.com/gremiotiradentes?igsh=MTVvdjg1bGZhcTFjZQ==" target="_blank">Instagram</a>
-    <a class="botao" href="https://www.tiktok.com/@gremio.tiradentes?_r=1&_t=ZS-967LakiZwyy" target="_blank">TikTok</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- OUVIDORIA --><div id="ouvidoria" class="page">
-    <h2>Ouvidoria</h2>
-    <p><b>Mauro Braitt</b> (Ouvidor Titular)</p>
-    <p><b>Victor Andrews</b> (Ouvidor Adjunto)</p>
-    <a class="botao" href="https://www.instagram.com/ouvidoria_cpmlobato2026" target="_blank">Instagram</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- PROJETOS --><div id="projetos" class="page">
-    <h2>Projetos</h2>
-    <p>Em breve todos os projetos serão listados aqui.</p>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- NOTAS --><div id="notas" class="page">
-    <h2>Notas Oficiais</h2>
-    <a class="botao" href="https://docs.google.com/document/d/1LIhKg-5mtvq0f6xNRSoadwyvdk4Gj6d24l5iPFRtumc" target="_blank">Ver notas</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- OFICIOS --><div id="oficios" class="page">
-    <h2>Ofícios</h2>
-    <a class="botao" href="https://docs.google.com/document/d/1PDXH4w0OY4WYCGdaOd7JBmULAopqkKtvUpH3qdCUNV8" target="_blank">Ofício Nº1</a>
-    <a class="botao" href="https://docs.google.com/document/d/1HymTjMvgVkaR82QtojVNHtAKVYhNR77C14NXxGKxu9E" target="_blank">Ofício Nº2</a>
-    <a class="botao" href="https://docs.google.com/document/d/1omSqgRI_0Ixtu2Djm615uAOvdsAD8dpWsGJWxOY51ZU" target="_blank">Ofício Nº3</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- COLEGIADO --><div id="colegiado" class="page">
-    <h2>Representante discente no Colegiado Escolar</h2>
-    <p><b>Marcos Machado</b></p>
-    <a class="botao" href="https://wa.me/71993625836" target="_blank">WhatsApp</a>
-    <a class="botao" href="https://www.instagram.com/marcosmachadoof" target="_blank">Instagram</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><!-- ATAS --><div id="atas" class="page">
-    <h2>Atas</h2>
-    <a class="botao" href="https://drive.google.com/file/d/1PbIsR0WraptgVGxaFwXEsewxXQWL1A-2/view" target="_blank">Abrir atas</a>
-    <br><a href="#" class="back">Voltar</a>
-</div><footer>
+<footer>
 © 2026 Grêmio Estudantil Tiradentes
-</footer></body>
+</footer>
+
+</body>
 </html>
